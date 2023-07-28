@@ -15,7 +15,7 @@ const Onboarding = () => {
           <div className=' h-28 bg-[#0C579B] text-white text-center'>
             <h1 className='pt-10 text-xl'>How did You here about Us!</h1>
           </div>
-          <div className='py-28 px-20 md:px-44  grid grid-cols-2 md:grid-cols-3 gap-5'>
+          <div className='py-28 px-4 md:px-44  grid grid-cols-2 md:grid-cols-3 gap-5'>
                  <Link to=''>
                  <div className="card w-44 bg-base-100 shadow-xl ">
                 <figure className="px-10 pt-10">
@@ -87,7 +87,7 @@ const Onboarding = () => {
                 </div>
                   </Link>
            </div>
-           <div className='ml-52 mb-5 py-10'>
+           <div className='md:ml-52 ml-4 mb-5 py-10'>
            <button className="btn btn-outline  btn-sm mr-5 text-gray-500">Back </button>
            <button className="btn btn-outline btn-sm md:ml-96 text-[#23B574]">Skip </button>
            <button className="btn bg-[#23B574] btn-sm ml-10 text-white">Get Started <AiOutlineArrowRight></AiOutlineArrowRight>  </button>
